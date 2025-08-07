@@ -23,5 +23,5 @@ export function getDeliveryOption(deliveryOptionId){
     }
   });
 
-  return deliveryOption || 'null';
+  return deliveryOption || null;
 }
